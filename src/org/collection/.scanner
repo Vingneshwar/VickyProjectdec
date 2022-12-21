@@ -1,0 +1,54 @@
+package org.collection;
+import java.util.Scanner;
+
+public class Vignesh {
+	
+  public static void main(String[] args, char[] name, int arg0) {
+	
+	  Scanner s=new Scanner(System.in);
+	  
+	  System.out.println("Enter the age");
+	  byte age=s.nextByte();
+	  System.out.println("my ageis"+age);
+
+	  System.out.println("Enter the atmpin");
+	  short atmpin=s.nextShort();
+	  System.out.println("my atmpin is"+atmpin);
+	  
+	  System.out.println("Enter the pincode");
+	  int pincode=s.nextInt();
+	  System.out.println("my pincode is"+pincode);
+	  
+	  System.out.println("Enter the phone");
+	  long phone=s.nextLong();
+	  System.out.println("my phone is"+phone);
+	  
+	  System.out.println("Enter the salary");
+	  float salary=s.nextFloat();
+	  System.out.println("my salary is"+salary);
+	  
+	  System.out.println("Enter the Name");
+	  String gender=s.next();
+	  System.out.println(name);
+	  
+	  System.out.println("Enter the code");
+	  boolean code=s.nextBoolean();
+	  System.out.println("my code is"+code);
+	  
+	  String n=s.next();
+	  char gender1=n.charAt(arg0);
+	  System.out.println("my gender is "+gender1);
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+}
+
+}
